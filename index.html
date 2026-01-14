@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <!-- Page metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korttipeli</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="vendor/style/style.css">
+</head>
+<body>
+    <!--Page content starts here-->
+    <div class="layout">
+        <!--Scoreboard stars here-->
+        <div class="scoreboard">
+            <h3>PISTEET</h3>
+            <div>Pelaaja: <span id="pWins-display">0</span></div>
+            <div>Kone: <span id="cWins-display">0</span></div>
+        </div>
+        <!--Scoreboard ends here-->
+
+        <!--Blackjack table starts here-->
+        <div class="bjtable">
+
+        <!--Computers hand starts here-->
+        <div>
+            <div class="score">Tietokone: <span id="cScore">?</span></div>
+            <div id="cCards" class="hand"></div>
+        </div>
+        <!--Computers hand ends here-->
+
+        <!--Messagebox starts here-->
+        <div class="message">
+            <h2 id="message">Tervetuloa</h2>
+        </div>
+        <!--Messagebox ends here-->
+
+        <!--Player hand starts here-->
+        <div>
+            <div id="pCards" class="hand"></div>
+            <div class="score">Sinä: <span id="pScore">0</span></div>
+        </div>
+        <!--Player hand ends here-->
+
+        <!--Controls (buttons eg) start here-->
+        <div class="controls">
+            <button id="start" class="btn">Pelaa</button>
+            <button id="hit" class="btn" disabled>Nosta kortti</button>
+            <button id="stand" class="btn" disabled>Jää</button>
+        </div>
+        <!--Controls end here-->
+    </div>
+    <!--Blackjack table ends here-->
+</div>
+<!--Page content ends here-->
+<script src="vendor/script/script.js"></script> <!--External Javascript file-->
+</body>
+
+</html>

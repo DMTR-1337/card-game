@@ -1,0 +1,85 @@
+/*Page Structure starts here*/
+body {
+    margin: 0;
+    background: #111;
+    color: #fff;
+    font-family: sans-serif;
+}
+/* Page Structure ends here*/
+
+/* Page content starts here*/
+.layout/*Page layout*/
+{ 
+    display: flex;
+    height: 100vh;
+}
+.scoreboard/*Scoreboard*/
+{ 
+    width: 200px;
+    background: #222;
+    border-right: 2px solid #555;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.scoreboard h3/*Scoreboard h3*/
+{ 
+    border-bottom: 1px solid #555;
+}
+.bjtable/*Blackjack table*/
+{
+    flex: 1;
+    background: rgb(42, 92, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+.hand /*Game hand*/
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    min-height: 150px;
+    margin: 20px 0;
+}
+.card /*Game Cards*/
+{
+    width: 100px;
+    height: 140px;
+    background: white;
+    border-radius: 5px;
+}
+.score/*Player's name*/
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.message/*Messagebox*/
+{
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+.controls/*Controls layout*/
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn/*Buttons inside controls layout*/
+{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #87ea94;
+    border-radius: 10px;
+    border: none;
+}
+.btn:disabled /*Disabled button style*/
+{
+    opacity: 0.3;
+}
+/*Page content ends here*/
