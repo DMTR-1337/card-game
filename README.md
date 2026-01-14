@@ -15,4 +15,4 @@ Card images obtained from [Xadeck/xCards](https://github.com/Xadeck/xCards)
 ---
 
 **Made in 2 hours.**
-
+---
