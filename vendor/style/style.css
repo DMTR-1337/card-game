@@ -1,5 +1,6 @@
 /*Page Structure starts here*/
-body {
+body
+{
     margin: 0;
     background: #111;
     color: #fff;
@@ -82,4 +83,5 @@ body {
 {
     opacity: 0.3;
 }
+
 /*Page content ends here*/
