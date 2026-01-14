@@ -9,5 +9,6 @@ The cards are drawn one at a time as long as the **player** wants to keep his co
 ## Showcase
 ![showcase](https://i.ibb.co/fdbwxgVQ/showcase.png)
 
+Card images obtained from [!xCards](https://github.com/Xadeck/xCards)
 **Made in 2 hours.**
 
