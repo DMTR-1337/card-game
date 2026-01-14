@@ -1,9 +1,13 @@
 # Card Game
 
-A Card game, where the **player** is dealt two cards and the **computer** opponent is dealt two cards. 
-After this, the user is given more cards if he wants to draw them.
-The **computer** never draws more cards. The one who gets closer to **21** wins. 
-The cards are drawn one at a time as long as the **player** wants to keep his count to exceed **21**.
+A cool **Card Game**, which I made as a project as a part of my **vocational studies**.
+
+---
+
+## Rules:
+- The one who gets closer to **21** wins.
+- Computer only gets **2** cards
+- Player can draw as many cards as he wants, but if it exceeds **21** it means you lose.
 
 ---
 
